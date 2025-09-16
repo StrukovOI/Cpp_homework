@@ -34,7 +34,7 @@ int main()
         }
     }
 
-    multiply(a, b, n);
+    assign(a, b, n);
 
     for (int i=0; i!=n; ++i)
     {

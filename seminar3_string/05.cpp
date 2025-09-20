@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main() {
+int main()
+{
     int sum = 0;
     char c;
 

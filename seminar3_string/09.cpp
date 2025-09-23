@@ -14,7 +14,8 @@ void trim_after_first_space(char str[])
     }
 }
 
-int main() {
+int main()
+{
     char a[] = "Cats and Dogs";
     printf("%s\n", a); // Должно напечатать Cats and Dogs
     trim_after_first_space(a);

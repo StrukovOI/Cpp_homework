@@ -30,9 +30,8 @@ int main()
 {
     int k;
     char c[100];
-	scanf("%i", &k);
+	scanf("%i ", &k);
 
-	getchar();
 	fgets(c, sizeof(c), stdin);
     c[strcspn(c, "\n")] = '\0';
 

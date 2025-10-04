@@ -3,8 +3,8 @@
 
 int main()
 {
-    int* p = (int*)malloc(sizeof(size_t));
+    size_t* p = (size_t*)malloc(sizeof(size_t));
     *p = 123;
-    printf("%i", *p);
+    printf("%lli", *p);
     free(p);
 }

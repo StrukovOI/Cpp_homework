@@ -2,14 +2,9 @@
 
 int main()
 {
-#if defined(COUNT)
-    for (int i = 1; i <= COUNT; ++i)
-    {
-        printf("%i ", i);
-    }
-    printf("\n");
-
+#if defined(DOG)
+    printf("Dog!\n");
 #else
-    printf("No Count!\n");
+    printf("No dog!\n");
 #endif
 }

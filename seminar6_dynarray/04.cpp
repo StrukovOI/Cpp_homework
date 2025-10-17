@@ -3,13 +3,25 @@
 int main()
 {
 #if defined(COUNT)
-    for (int i = 1; i <= COUNT; ++i)
-    {
-        printf("%i ", i);
-    }
-    printf("\n");
+    #if COUNT > 100
+        printf("Count is too large!\n");
+    #else
+        #if defined(REVERSE)
+            for (int i = COUNT; i >= 1; --i)
+            {
+                printf("%d ", i);
+            }
+        #else
+            for (int i = 1; i <= COUNT; ++i)
+            {
+                printf("%d ", i);
+            }
+        #endif
+        printf("\n");
+    #endif
 
 #else
-    printf("No Count!\n");
+    printf("No count!\n");
 #endif
+
 }

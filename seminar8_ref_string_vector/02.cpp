@@ -1,6 +1,6 @@
 #include <iostream>
 
-void cube(int &n)
+void cube(int& n)
 {
     n = n * n * n;
 }

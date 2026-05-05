@@ -347,7 +347,7 @@ public:
 
 int main()
 {
-    InitWindow(800, 800, "Button");
+    InitWindow(800, 800, "Buttons");
     SetTargetFPS(60);
 
     ShapePool pool({300, 50}, {450, 700});
